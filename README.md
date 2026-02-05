@@ -16,5 +16,5 @@ At the moment Pickett-Type and Wilson-Type should not be mixed.
 |------|------|------|------|------|------|------|------|------|
 |Methylformate | [10.1016/j.jms.2009.01.016](https://doi.org/10.1016/j.jms.2009.01.016) |   x   |      |      |      |      |      |      | 
 |26Dimethylphenol |   tbp   |  x    |      |      |      |      |      |   x   |
-|Benzanilide|10.1016/j.jms.2018.07.003](https://doi.org/10.1016/j.jms.2018.07.003)|      |      |      |      |   o   |      |   x   |
-|      |      |      |      |      |      |      |      |      |
+|Benzanilide|[10.1016/j.jms.2018.07.003](https://doi.org/10.1016/j.jms.2018.07.003)|      |      |      |      |   o   |      |   x   |
+|Diethylamine|[10.1063/1.3607992](https://doi.org/10.1063/1.3607992)      |   x   |   x   |      |      |  o    |      |   x   |
