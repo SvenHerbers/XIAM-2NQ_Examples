@@ -1,6 +1,6 @@
 # XIAM-2NQ_Examples
-Example input and output files for fits using XIAM-2NQ.
-The following table lists the examples and a reference to the used dataset.
+Example input and output files for XIAM-2NQ.
+The following table lists the examples and a reference to the used dataset. The datasets for each molecule were taken from the linked source and refit using XIAM-2NQ.
 A detailed documentation including a listing of all available fit parameters is provided on https://github.com/SvenHerbers/XIAM-2NQ/tree/main
 
 The following table summarizes which features were used in the example files. tbp = to be published.
