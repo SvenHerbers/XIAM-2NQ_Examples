@@ -1,9 +1,16 @@
 # XIAM-2NQ_Examples
-The table below lists the example cases together with references to the datasets used.  
-All molecular datasets were taken from the cited sources and refit using XIAM-2NQ.
-Detailed documentation, including a complete list of available fit parameters, is available at: https://github.com/SvenHerbers/XIAM-2NQ/tree/main
+Contact: sven_herbers@web.de
 
-The table also summarizes which physical features are activated in each example.  
+The table below lists the example cases together with references to the datasets used.  
+All molecular datasets were taken from the reference sources and refit using XIAM-2NQ.  
+
+The **executable** in the main directory is compiled for up to 2 tops, Jmax=71, I1max=5/2, I2max=5/2, and up to 5 sets of parameters (set 1,2 and 3,4 available as vibrational states in Coriolis Coupling treatment).  
+By adjusting the `iam.fi` in the source directory and recompiling these limits can be chaged.  
+
+Source code and detailed documentation, including a complete list of available fit parameters, is available at:   
+https://github.com/SvenHerbers/XIAM-2NQ/
+
+The table below summarizes which physical features are activated in each example.  
 
 **tbp** = to be published.
 
@@ -16,7 +23,7 @@ x = exact quadrupole coupling treatment - not available with Coriolis Coupling,
 o = only matrix elements diagonal in **J** included - only available for NQC1, and only if NQC2 is not used   
 empty = not used.
 
-**Coriolis Coupling**: Off-diagonal Coriolis terms in the vibrational quantum number using either Pickett-type (Fxz, Fxy, Fyz) or Wilson-type (Gz, Gx, Gy) formulation. At the moment Pickett-Type and Wilson-Type should not be mixed (see documentation). Needs to be activated using control parameter `ctrl 1` in the input file.  
+**Coriolis Coupling**: Coriolis terms off-diagonal in the vibrational quantum number using either Pickett-type (Fxz, Fxy, Fyz) or Wilson-type (Gz, Gx, Gy) formulation. At the moment Pickett-Type and Wilson-Type should not be mixed (see documentation). Needs to be activated using control parameter `ctrl 1` in the input file.  
 x = used in the fit  
 empty = not used.
 
