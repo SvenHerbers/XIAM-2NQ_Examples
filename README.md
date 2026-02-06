@@ -23,7 +23,7 @@ x = exact quadrupole coupling treatment - not available with Coriolis Coupling,
 o = only matrix elements diagonal in **J** included - only available for NQC1, and only if NQC2 is not used   
 empty = not used.
 
-**Coriolis Coupling**: Coriolis terms off-diagonal in the vibrational quantum number using either Pickett-type (Fxz, Fxy, Fyz) or Wilson-type (Gz, Gx, Gy) formulation. At the moment Pickett-Type and Wilson-Type should not be mixed (see documentation). Needs to be activated using control parameter `ctrl 1` in the input file.  
+**Coriolis Coupling**: Coriolis terms off-diagonal in the vibrational quantum number using either Pickett-type (Fxz, Fxy, Fyz) or Wilson-type (Gz, Gx, Gy) formulation. At the moment Pickett-Type and Wilson-Type should not be mixed (see documentation). Pickett-type also available with (chixz, chixy, chiyz) terms off-diagonal in vib quantum number. Needs to be activated using control parameter `ctrl 1` in the input file.  
 x = used in the fit  
 empty = not used.
 
@@ -33,6 +33,7 @@ empty = not used.
 |Benzanilide|[10.1016/j.jms.2018.07.003](https://doi.org/10.1016/j.jms.2018.07.003)|      |      |      |      |   o   |      |   x   |
 |Methylformate | [10.1016/j.jms.2009.01.016](https://doi.org/10.1016/j.jms.2009.01.016) |   x   |      |      |      |      |      |      | 
 |26Dimethylphenol |   tbp   |  x    |      |      |      |      |      |   x   |
+|Diethylamine |  [10.1063/1.3607992](https://doi.org/10.1063/1.3607992)  |  x    |    x  |      |      |   o   |      |   x   |
 |Methoxyflurane|[10.1063/5.0267651](https://doi.org/10.1063/5.0267651)      |   x   |      |      |      | x    |  x    |      |
 
  
