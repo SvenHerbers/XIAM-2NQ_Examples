@@ -23,7 +23,7 @@ x = exact quadrupole coupling treatment - not available with Coriolis Coupling,
 o = only matrix elements diagonal in **J** included - only available for NQC1, and only if NQC2 is not used   
 empty = not used.
 
-**Coriolis Coupling**: Coriolis terms off-diagonal in the vibrational quantum number using either Pickett-type (Fxz, Fxy, Fyz) or Wilson-type (Gz, Gx, Gy) formulation. At the moment Pickett-Type and Wilson-Type should not be mixed (see documentation). Pickett-type also available with (chixz, chixy, chiyz) terms off-diagonal in vib quantum number. Needs to be activated using control parameter `ctrl 1` in the input file.  
+**Coriolis Coupling**: Coriolis terms off-diagonal in the vibrational quantum number using either Pickett-type (Fxz, Fxy, Fyz) or Wilson-type (Gz, Gx, Gy) formulation. At the moment Pickett-Type and Wilson-Type should not be mixed (see documentation). Pickett-type also available with (chixz, chixy, chiyz) J-diagonal-terms off-diagonal in vib quantum number. Needs to be activated using control parameter `ctrl 1` in the input file.  
 x = used in the fit  
 empty = not used.
 
