@@ -34,6 +34,5 @@ empty = not used.
 |Methylformate | [10.1016/j.jms.2009.01.016](https://doi.org/10.1016/j.jms.2009.01.016) |   x   |      |      |      |      |      |      | 
 |26Dimethylphenol |   tbp   |  x    |      |      |      |      |      |   x   |
 |Methoxyflurane|[10.1063/5.0267651](https://doi.org/10.1063/5.0267651)      |   x   |      |      |      | x    |  x    |      |
-|Diethylamine|[10.1063/1.3607992](https://doi.org/10.1063/1.3607992)      |   x   |   x   |      |      |  o    |      |   x   |
 
  
