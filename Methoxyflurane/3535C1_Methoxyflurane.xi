@@ -2,7 +2,7 @@ Methoxyflurane 35/35 C1 - Dataset from https://doi.org/10.1063/5.0267651 J. Chem
 
 ntop    1
 red     1
-print   5
+print   4
 ncyc    20
 spin 3
 spin2 3
