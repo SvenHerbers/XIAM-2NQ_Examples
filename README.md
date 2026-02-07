@@ -1,7 +1,7 @@
 # XIAM-2NQ_Examples
 Contact: sven_herbers@web.de
 
-The table below lists the example cases together with references to the datasets used.  
+The table below lists the example cases together with references to the datasets used and which features of XIAM-2NQ are activated in each example.  
 All molecular datasets were taken from the reference sources and refit using XIAM-2NQ.  
 
 The **executable** in the main directory is compiled for up to 2 tops, Jmax=71, I1max=5/2, I2max=5/2, and up to 5 sets of parameters (set 1,2 and 3,4 available as vibrational states in Coriolis Coupling treatment).  
@@ -19,8 +19,6 @@ https://github.com/SvenHerbers/XIAM-2NQ/
 |Diethylamine |  [10.1063/1.3607992](https://doi.org/10.1063/1.3607992)  |  x    |    x  |      |      |   o   |      |   x   |  |
 |Methoxyflurane|[10.1063/5.0267651](https://doi.org/10.1063/5.0267651)      |   x   |      |      |      | x    |  x    |      |  |
 |23Dimethyloxirane | [10.1515/zna-1996-0807](https://doi.org/10.1515/zna-1996-0807)  <br> [10.1515/zna-1992-1008](https://doi.org/10.1515/zna-1992-1008) <br> [Hartwig's Thesis](https://d-nb.info/947519505) |  x   |   x   |      |      |      |     |      |  x  |
-
-The table above summarizes which physical features are activated in each example.  
 
 **tbp** = to be published.
 
