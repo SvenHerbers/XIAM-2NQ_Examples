@@ -10,7 +10,7 @@ By adjusting the `iam.fi` in the source directory and recompiling these limits c
 Source code and detailed documentation, including a complete list of available fit parameters, is available at:   
 https://github.com/SvenHerbers/XIAM-2NQ/
 
-| Name | Data Reference | V1 | V2 | V3 | V4 | NQC1 | NQC2 | Coriolis Coupling| Excited |
+| Name | Data Reference | V1 | V2 | V3 | V4 | NQC1 | NQC2 | Coriolis | Excited |
 |------|------|------|------|------|------|------|------|------|------|
 |Benzanilide|[10.1016/j.jms.2018.07.003](https://doi.org/10.1016/j.jms.2018.07.003)|      |      |      |      |   o   |      |   x   |  |
 |Methylformate | [10.1016/j.jms.2009.01.016](https://doi.org/10.1016/j.jms.2009.01.016) |   x   |      |      |      |      |      |      |  | 
@@ -32,7 +32,7 @@ x = exact quadrupole coupling treatment - not available with Coriolis coupling
 o = only matrix elements diagonal in **J** included - only available for NQC1, and only if NQC2 is not used   
 empty = not used
 
-**Coriolis Coupling**: Coriolis terms off-diagonal in the vibrational quantum number using either Pickett-type (Fxz, Fxy, Fyz) or Wilson-type (Gz, Gx, Gy) formulation. At the moment Pickett-Type and Wilson-Type should not be mixed (see documentation). Pickett-type also available with (chixz, chixy, chiyz) J-diagonal-terms off-diagonal in vib quantum number. Needs to be activated using control parameter `ctrl 1` in the input file.  
+**Coriolis**: Coriolis terms off-diagonal in the vibrational quantum number using either Pickett-type (Fxz, Fxy, Fyz) or Wilson-type (Gz, Gx, Gy) formulation. At the moment Pickett-Type and Wilson-Type should not be mixed (see documentation). Pickett-type also available with (chixz, chixy, chiyz) J-diagonal-terms off-diagonal in vib quantum number. Needs to be activated using control parameter `ctrl 1` in the input file.  
 x = used in the fit  
 empty = not used
 
