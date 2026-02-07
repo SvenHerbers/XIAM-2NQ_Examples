@@ -6,6 +6,7 @@ All molecular datasets were taken from the reference sources and refit using XIA
 
 The **executable** in the main directory is compiled for up to 2 tops, Jmax=71, I1max=5/2, I2max=5/2, and up to 5 sets of parameters (set 1,2 and 3,4 available as vibrational states in Coriolis Coupling treatment).  
 By adjusting the `iam.fi` in the source directory and recompiling these limits can be chaged.  
+For example cases where the `iam.fi` and thus the compiled executable deviate from these default settings, a recompiled executable together with the used pre-compilation setting file (`iam.fi`) is added to the directory of the example.
 
 Source code and detailed documentation, including a complete list of available fit parameters, is available at:   
 https://github.com/SvenHerbers/XIAM-2NQ/
@@ -36,8 +37,8 @@ empty = not used
 x = used in the fit  
 empty = not used
 
-**Ex.**: Excited torsional states are used. If the torsional states are coupled by matrix-elements off-diagonal in torsional quantum number, the dimension DIMVV has to be increased from its defaul value (1). In those cases a recompiled executable together with the used pre-compilation setting file (iam.fi) is added to the directory of the example. Coupled torsional states can not be used with exact NQC or Coriolis-Coupling terms of Pickett/Wilson type (in other word, if the matrix is off-diagonal in torsion it must be diagonal in J and in other vibrational quantum numbers).    
-If the torsional states are fit separately with no matrix elements off-diagonal in torsional quantum number, recompilation is not needed, and exact NQC matrix elements **or** Coriolis-Coupling of Pickett or Wilson type are possible.  
+**Ex.**: Excited torsional states may be included. If they are to be coupled by matrix elements off-diagonal in the torsional quantum number, `DIMVV` in `iam.fi` must be increased from its default (1) before compilation. Such coupling is currently incompatible with exact NQC or Pickett/Wilson-type Coriolis terms: if the Hamiltonian is off-diagonal in torsion, it must be diagonal in J and all other vibrational quantum numbers.  
+If torsional states are fitted separately, with no off-diagonal elements in torsional quantum number, `DIMVV` need not be increased, and exact NQC **or** Pickett/Wilson-type Coriolis terms are allowed.   
 x = Dataset includes excited torsional states  
 empty = only torsional ground state data
 
