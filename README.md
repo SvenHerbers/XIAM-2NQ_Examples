@@ -11,14 +11,14 @@ For example cases where the `iam.fi` and thus the compiled executable deviate fr
 Source code and detailed documentation, including a complete list of available fit parameters, is available at:   
 https://github.com/SvenHerbers/XIAM-2NQ/
 
-| Name | Data Reference | V1 | V2 | V3 | V4 | NQC1 | NQC2 | Cor. | Ex. |
-|------|------|------|------|------|------|------|------|------|------|
-|Benzanilide|[10.1016/j.jms.2018.07.003](https://doi.org/10.1016/j.jms.2018.07.003)|      |      |      |      |   o   |      |   x   |  |
-|Methylformate | [10.1016/j.jms.2009.01.016](https://doi.org/10.1016/j.jms.2009.01.016) |   x   |      |      |      |      |      |      |  | 
-|26Dimethylphenol |   tbp   |  x    |      |      |      |      |      |   x   |  |
-|Diethylamine |  [10.1063/1.3607992](https://doi.org/10.1063/1.3607992)  |  x    |    x  |      |      |   o   |      |   x   |  |
-|Methoxyflurane|[10.1063/5.0267651](https://doi.org/10.1063/5.0267651)      |   x   |      |      |      | x    |  x    |      |  |
-|23Dimethyloxirane | [10.1515/zna-1996-0807](https://doi.org/10.1515/zna-1996-0807)  <br> [10.1515/zna-1992-1008](https://doi.org/10.1515/zna-1992-1008) <br> [Hartwig's Thesis](https://d-nb.info/947519505) |  x   |   x   |      |      |      |     |      |  x  |
+| Name | Data Reference | V1 | V2 | V3 | V4 | NQC1 | NQC2 | Cor. | Ex. | nfold |
+|------|------|------|------|------|------|------|------|------|------|------|
+|Benzanilide|[10.1016/j.jms.2018.07.003](https://doi.org/10.1016/j.jms.2018.07.003)|      |      |      |      |   o   |      |   x   |  |  |
+|Methylformate | [10.1016/j.jms.2009.01.016](https://doi.org/10.1016/j.jms.2009.01.016) |   x   |      |      |      |      |      |      |  |  | 
+|26Dimethylphenol |   tbp   |  x    |  x   |      |      |      |      |   x   |  | x |
+|Diethylamine |  [10.1063/1.3607992](https://doi.org/10.1063/1.3607992)  |  x    |    x  |      |      |   o   |      |   x   |  |  |
+|Methoxyflurane|[10.1063/5.0267651](https://doi.org/10.1063/5.0267651)      |   x   |      |      |      | x    |  x    |      |  |  |
+|23Dimethyloxirane | [10.1515/zna-1996-0807](https://doi.org/10.1515/zna-1996-0807)  <br> [10.1515/zna-1992-1008](https://doi.org/10.1515/zna-1992-1008) <br> [Hartwig's Thesis](https://d-nb.info/947519505) |  x   |   x   |      |      |      |     |      |  x  |  |
 
 **tbp** = to be published.
 
@@ -40,7 +40,8 @@ If torsional states are fitted separately, with no off-diagonal elements in tors
 x = Dataset includes excited torsional states  
 empty = only torsional ground state data
 
-
-
+**nfold**: XIAM-2NQ is not restricted to threefold (methyl) internal rotors. Any symmetric torsional potential can be used. The fold number of the internal rotors included in the fit can be specified globally with `nfold` or or individually with `nfold1`, `nfold2`, `nfold3`, and `nfold4`  
+x = The dataset contains at least one rotor that is not threefold
+empty = All rotors in the dataset are threefold
 
  
