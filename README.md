@@ -37,11 +37,11 @@ empty = not used
 
 **Ex.**: Excited torsional states may be included. If they are to be coupled by matrix elements off-diagonal in the torsional quantum number, `DIMVV` in `iam.fi` must be increased from its default (1) before compilation. Such coupling is currently incompatible with exact NQC or Pickett/Wilson-type Coriolis terms: if the Hamiltonian is off-diagonal in torsion, it must be diagonal in J and all other vibrational quantum numbers.  
 If torsional states are fitted separately, with no off-diagonal elements in torsional quantum number, `DIMVV` need not be increased, and exact NQC **or** Pickett/Wilson-type Coriolis terms are allowed.   
-x = Dataset includes excited torsional states  
+x = dataset includes excited torsional states  
 empty = only torsional ground state data
 
-**nfold**: XIAM-2NQ is not restricted to threefold (methyl) internal rotors. Any symmetric torsional potential can be used. The fold number of the internal rotors included in the fit can be specified globally with `nfold` or or individually with `nfold1`, `nfold2`, `nfold3`, and `nfold4`  
-x = The dataset contains at least one rotor that is not threefold
-empty = All rotors in the dataset are threefold
+**nfold**: XIAM-2NQ is not restricted to threefold (methyl) internal rotors. Any symmetric torsional potential can be used. The fold number of the internal rotors included in the fit can be specified globally with `nfold` or individually with `nfold1`, `nfold2`, `nfold3`, and `nfold4`  
+x = dataset contains at least one rotor that is not threefold  
+empty = all rotors in the dataset are threefold
 
  
