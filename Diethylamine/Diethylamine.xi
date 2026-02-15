@@ -1,4 +1,4 @@
- Diethylamine - dataset derived from supplementary material of https://doi.org/10.1063/1.3607992 J. Chem. Phys. 135, 024310 (2011)
+ Diethylamine - Dataset derived from supplementary material of https://doi.org/10.1063/1.3607992 J. Chem. Phys. 135, 024310 (2011)
  
  ntop  2
  ncyc 10

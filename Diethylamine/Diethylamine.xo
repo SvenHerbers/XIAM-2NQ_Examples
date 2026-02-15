@@ -9,7 +9,7 @@ Modified Version: XIAM-2NQ v0.38 -By Sven Herbers 14-February-2026
  Cite: J. Chem. Phys., 2025, 162, 234304, DOI: 10.1063/5.0267651 
  
  Type help now for the list of parameters : 
-Diethylamine - dataset derived from supplementary material of https://doi.org/10.1063/1.3607992 J. Chem. Phys. 135, 024310 (2011)
+Diethylamine - Dataset derived from supplementary material of https://doi.org/10.1063/1.3607992 J. Chem. Phys. 135, 024310 (2011)
  
    nzyk        10   print        4   eval         0   dfreq        0 
    orger        0   ints         0   maxm         8   woods       33 
