@@ -15,9 +15,10 @@ https://github.com/SvenHerbers/XIAM-2NQ/
 |------|------|------|------|------|------|------|------|------|------|------|
 |Benzanilide|[10.1016/j.jms.2018.07.003](https://doi.org/10.1016/j.jms.2018.07.003)|      |      |      |      |   o   |      |   x   |  |  |
 |Methylformate | [10.1016/j.jms.2009.01.016](https://doi.org/10.1016/j.jms.2009.01.016) |   x   |      |      |      |      |      |      |  |  | 
+|Vinylsulfur_pentafluoride| [10.1063/1.5050021](https://doi.org/10.1063/1.5050021)| x |      |      |      |      |      |      |  | x | 
+|Methoxyflurane|[10.1063/5.0267651](https://doi.org/10.1063/5.0267651)      |   x   |      |      |      | x    |  x    |      |  |  |
 |26Dimethylphenol |   tbp   |  x    |  x   |      |      |      |      |   x   |  | x |
 |Diethylamine |  [10.1063/1.3607992](https://doi.org/10.1063/1.3607992)  |  x    |    x  |      |      |   o   |      |   x   |  |  |
-|Methoxyflurane|[10.1063/5.0267651](https://doi.org/10.1063/5.0267651)      |   x   |      |      |      | x    |  x    |      |  |  |
 |23Dimethyloxirane | [10.1515/zna-1996-0807](https://doi.org/10.1515/zna-1996-0807)  <br> [10.1515/zna-1992-1008](https://doi.org/10.1515/zna-1992-1008) <br> [Hartwig's Thesis](https://d-nb.info/947519505) |  x   |   x   |      |      |      |     |      |  x  |  |
 
 **tbp** = to be published.
