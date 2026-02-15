@@ -40,7 +40,7 @@ x = dataset includes excited torsional states
 empty = only torsional ground state data
 
 **nfold**: XIAM-2NQ is not restricted to threefold (methyl) internal rotors. Any symmetric torsional potential can be used. The fold number of the internal rotors included in the fit can be specified globally with `nfold` or individually with `nfold1`, `nfold2`, `nfold3`, and `nfold4`  
-x = dataset contains at least one rotor that is not threefold  
-empty = all rotors in the dataset are threefold
+x = model contains at least one rotor that is not threefold  
+empty = all rotors in the model are threefold
 
  
