@@ -1,9 +1,9 @@
 ~Methylformate Vmax0 sub-dataset of full dataset given in https://doi.org/10.1016/j.jms.2009.01.016 by Ilyushin et al. 
  
-ntop  1  !   49 parameters - 63kHz weighted; 145kHz unweighted
-ncyc 30    
-reduc 0      
-print 4  
+ntop   1  !   49 parameters - 63kHz weighted; 145kHz unweighted
+ncyc  30 
+reduc  0 
+print  4 
 conv 1.0
 
  BJ            6.108586311 { 0.000033978}
@@ -58,7 +58,7 @@ conv 1.0
  delta         0.914504733 { 0.000105858} 
  betJ1         2.225083E-6 { 0.153334E-6} 
  betJ2         0.619552E-9 { 0.008413E-9} 
-                            
+           
  fit BJ    
  fit BK    
  fit B-    
@@ -109,11 +109,11 @@ conv 1.0
  dqx FmkJJ 
  dqx FmkK
  
-   S     0  !S 1                
-   S     1  !S 2                
-                                
- V 0            ! ground state  
-
+ S 0  !S 1  
+ S 1  !S 2  
+            
+ V 0  ! ground state  
+ 
   1  1  1   0  0  0   B 1 V 1 S 1 =   25.2901610   Err  0.020E-3   !RAM obscalc -0.0190  RAM Source  1    Baud  
   1  1  0   1  0  1   B 1 V 1 S 1 =   14.6812310   Err  0.020E-3   !RAM obscalc  0.0074  RAM Source  1    Baud  
   1  0  1   0  0  0   B 1 V 1 S 1 =   12.2192100   Err  0.050E-3   !RAM obscalc  0.0087  RAM Source  1    TYAM  

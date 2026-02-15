@@ -1,11 +1,11 @@
 ~Methylformate Vmax0 Jmax50 Kamax20 sub-dataset of full dataset given in https://doi.org/10.1016/j.jms.2009.01.016 by Ilyushin et al. 
  
-ntop  1  !   This fit results in 34kHz weighted rms and 95 kHz unweighted rms.
-ncyc 20    
-reduc 0      
-print 4  
-conv 1.0
-
+ntop   1  !   49 parameters - 63kHz weighted; 145kHz unweighted
+ncyc  30 
+reduc  0 
+print  4 
+conv 1.0 
+ 
  BJ            6.108584375  
  BK           13.867013841  
  B-            0.804601086  
@@ -108,12 +108,12 @@ conv 1.0
  dqx rho-k 
  dqx FmkJJ 
  dqx FmkK
-
-   S     0  !S 1                                    
-   S     1  !S 2                                                                                                                                                                    
-                                                                                 
- V 0            ! ground state  
-
+ 
+ S 0  !S 1  
+ S 1  !S 2  
+            
+ V 0  ! ground state  
+ 
   1  1  1   0  0  0   B 1 V 1 S 1 =   25.2901610      Err  0.020E-3   !RAM obscalc -0.0190  RAM Source  1    Baud  
   1  1  0   1  0  1   B 1 V 1 S 1 =   14.6812310      Err  0.020E-3   !RAM obscalc  0.0074  RAM Source  1    Baud  
   1  0  1   0  0  0   B 1 V 1 S 1 =   12.2192100      Err  0.050E-3   !RAM obscalc  0.0087  RAM Source  1    TYAM  
