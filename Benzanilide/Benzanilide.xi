@@ -1,26 +1,26 @@
-  Benzanilide fit using XIAM. Dataset from https://doi.org/10.1016/j.jms.2018.07.003                          
-                                          
- ntop  0        
+  Benzanilide fit using XIAM. Dataset from https://doi.org/10.1016/j.jms.2018.07.003
+ 
+ ntop 0
  ncyc 20
  ctrl 1 ! needed to activate Coriolis coupling parameters
  spin 2
  print 4
-                                   
- BJ(1)     0.2580940395 
- BK(1)     1.7820437099 
- B-(1)     0.0140282233 
- BJ(2)     0.2580940395 
- BK(2)     1.7820437099 
- B-(2)     0.0140282233   
- DJ            2.320787E-9 
- DJK         -10.316791E-9 
- DK            0.453783E-6 
- dj            0.020661E-9 
- dk           87.577163E-9 
- E(2)        0.004051074
- chi_z         0.002147327
- chi_-         0.004934671
- Fxy12     0.000219250
+ 
+ BJ(1)    0.2580940395 
+ BK(1)    1.7820437099 
+ B-(1)    0.0140282233 
+ BJ(2)    0.2580940395 
+ BK(2)    1.7820437099 
+ B-(2)    0.0140282233   
+ DJ       2.320787E-9 
+ DJK    -10.316791E-9 
+ DK       0.453783E-6 
+ dj       0.020661E-9 
+ dk      87.577163E-9 
+ E(2)     0.004051074
+ chi_z    0.002147327
+ chi_-    0.004934671
+ Fxy12    0.000219250
  
  dqu BJ(1)
  dqu BK(1)
