@@ -1,11 +1,11 @@
 Methoxyflurane 35/35 C1 - Dataset from https://doi.org/10.1063/5.0267651 J. Chem. Phys. 162, 234304 (2025)
 
-ntop    1
-red     1
-print   4
-ncyc    20
-spin 3
-spin2 3
+ntop   1
+red    1
+print  4
+ncyc  20
+spin   3
+spin2  3
 
  BJ            1.005216044 
  BK            0.997108264 
@@ -50,14 +50,14 @@ spin2 3
  dqx chi2_xz
  dqx chi2_xy
  dqx chi2_yz
-                         
+ 
    S 0 
    S 1 
  
-      V 0   
-
+   V 0 
+ 
  1  0  1    0  0  0  F1  3  3   F    4  6     S 2       !=  2001.16634  MHz Err 0.020 ! Spfit-Calc:  2001.1809 MHz  ! intensity: 2.75766e-05  !  
- 1  0  1    0  0  0  F1  3  3   F    4  6     S 1   & -1 =  2001.16634  MHz Err 0.020 ! Spfit-Calc:  2001.1846 MHz  ! intensity: 2.75766e-05  !   
+ 1  0  1    0  0  0  F1  3  3   F    4  6     S 1   & -1 =  2001.16634  MHz Err 0.020 ! Spfit-Calc:  2001.1846 MHz  ! intensity: 2.75766e-05  !  
  1  0  1    0  0  0  F1  3  3   F    6  4     S 1       !=  2006.60162  MHz Err 0.020 ! Spfit-Calc:  2006.5868 MHz  ! intensity: 4.82600e-05  !  
  1  0  1    0  0  0  F1  3  3   F    6  4     S 2   & -1 =  2006.60162  MHz Err 0.020 ! Spfit-Calc:  2006.5831 MHz  ! intensity: 4.82600e-05  !  
  1  0  1    0  0  0  F1  5  3   F    4  2     S 1       !=  2009.26169  MHz Err 0.020 ! Spfit-Calc:  2009.2659 MHz  ! intensity: 6.22244e-05  !  
@@ -72,12 +72,12 @@ spin2 3
  1  0  1    0  0  0  F1  5  3   F    6  6     S 1   & -1 =  2016.43437  MHz Err 0.020 ! Spfit-Calc:  2016.4492 MHz  ! intensity: 9.77762e-05  !  
  1  0  1    0  0  0  F1  1  3   F    2  4     S 2       !=  2017.18277  MHz Err 0.020 ! Spfit-Calc:  2017.1922 MHz  ! intensity: 2.35691e-05  !  
  1  0  1    0  0  0  F1  1  3   F    2  4     S 1   & -1 =  2017.18277  MHz Err 0.020 ! Spfit-Calc:  2017.1959 MHz  ! intensity: 2.35691e-05  !  
- 1  0  1    0  0  0  F1  1  3   F    4  6     S 2       !=  2018.78359  MHz Err 0.020 ! Spfit-Calc:  2018.8617 MHz  ! intensity: 2.84358e-05  ! swapped from nF1  1  3   F    4  4  
- 1  0  1    0  0  0  F1  1  3   F    4  6     S 1   & -1 =  2018.78359  MHz Err 0.020 ! Spfit-Calc:  2018.8580 MHz  ! intensity: 2.84358e-05  ! swapped from nF1  1  3   F    4  4  
+ 1  0  1    0  0  0  F1  1  3   F    4  6     S 2       !=  2018.78359  MHz Err 0.020 ! Spfit-Calc:  2018.8617 MHz  ! intensity: 2.84358e-05  ! swapped from nF1  1  3   F    4  4 
+ 1  0  1    0  0  0  F1  1  3   F    4  6     S 1   & -1 =  2018.78359  MHz Err 0.020 ! Spfit-Calc:  2018.8580 MHz  ! intensity: 2.84358e-05  ! swapped from nF1  1  3   F    4  4 
  1  1  0    0  0  0  F1  1  3   F    4  6     S 2       !=  3147.44602  MHz Err 0.020 ! Spfit-Calc:  3147.5087 MHz  ! intensity: 1.69109e-04  !  
  1  1  0    0  0  0  F1  1  3   F    4  6     S 1   & -1 =  3147.44602  MHz Err 0.020 ! Spfit-Calc:  3147.4341 MHz  ! intensity: 1.69109e-04  !  
- 1  1  0    0  0  0  F1  1  3   F    2  0     S 2       !=  3148.89432  MHz Err 0.020 ! Spfit-Calc:  3148.9542 MHz  ! intensity: 9.36816e-05  ! swapped from  nF1  1  3   F    2  4 
- 1  1  0    0  0  0  F1  1  3   F    2  0     S 1   & -1 =  3148.89432  MHz Err 0.020 ! Spfit-Calc:  3148.8830 MHz  ! intensity: 9.36816e-05  ! swapped from  nF1  1  3   F    2  4 
+ 1  1  0    0  0  0  F1  1  3   F    2  0     S 2       !=  3148.89432  MHz Err 0.020 ! Spfit-Calc:  3148.9542 MHz  ! intensity: 9.36816e-05  ! swapped from nF1  1  3   F    2  4 
+ 1  1  0    0  0  0  F1  1  3   F    2  0     S 1   & -1 =  3148.89432  MHz Err 0.020 ! Spfit-Calc:  3148.8830 MHz  ! intensity: 9.36816e-05  ! swapped from nF1  1  3   F    2  4 
  1  1  0    0  0  0  F1  5  3   F    2  2     S 1       !=  3152.50863  MHz Err 0.020 ! Spfit-Calc:  3152.4730 MHz  ! intensity: 1.22174e-04  !  
  1  1  0    0  0  0  F1  5  3   F    2  2     S 2   & -1 =  3152.50863  MHz Err 0.020 ! Spfit-Calc:  3152.5378 MHz  ! intensity: 1.22174e-04  !  
  1  1  0    0  0  0  F1  5  3   F    8  6     S 2       !=  3155.18663  MHz Err 0.020 ! Spfit-Calc:  3155.2137 MHz  ! intensity: 4.46667e-04  !  
@@ -320,7 +320,7 @@ spin2 3
  3  0  3    2  0  2  F1  7  7   F    8  6     S 1       !=  5774.64235  MHz Err 0.020 ! Spfit-Calc:  5774.6885 MHz  ! intensity: 2.94629E-04  !  
  3  0  3    2  0  2  F1  7  7   F    8  6     S 2   & -1 =  5774.64235  MHz Err 0.020 ! Spfit-Calc:  5774.6196 MHz  ! intensity: 2.94629E-04  !  
  3  0  3    2  0  2  F1  9  7   F    10 8     S 2       !=  5781.09468  MHz Err 0.020 ! Spfit-Calc:  5781.0475 MHz  ! intensity: 3.68523E-03  !  
- 3  0  3    2  0  2  F1  9  7   F    10 8     S 1   & -1 =  5781.09468  MHz Err 0.020 ! Spfit-Calc:  5781.1160 MHz  ! intensity: 3.68523E-03  !    
+ 3  0  3    2  0  2  F1  9  7   F    10 8     S 1   & -1 =  5781.09468  MHz Err 0.020 ! Spfit-Calc:  5781.1160 MHz  ! intensity: 3.68523E-03  !  
  3  0  3    2  0  2  F1  5  3   F    8  6     S 1       !=  5781.23038  MHz Err 0.020 ! Spfit-Calc:  5781.2125 MHz  ! intensity: 2.09570E-03  !  switched from nF1  5  3   F    2  0 
  3  0  3    2  0  2  F1  5  3   F    8  6     S 2   & -1 =  5781.23038  MHz Err 0.020 ! Spfit-Calc:  5781.1450 MHz  ! intensity: 2.09570E-03  !  switched from nF1  5  3   F    2  0 
  3  0  3    2  0  2  F1  7  5   F    6  6     S 1       !=  5781.62071  MHz Err 0.020 ! Spfit-Calc:  5781.6425 MHz  ! intensity: 1.82133E-03  !  
