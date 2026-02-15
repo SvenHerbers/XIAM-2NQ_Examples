@@ -1,32 +1,31 @@
-  Diethylamine - dataset derived from supplementary material of https://doi.org/10.1063/1.3607992 J. Chem. Phys. 135, 024310 (2011)
-                                        
- ntop  2       
+ Diethylamine - dataset derived from supplementary material of https://doi.org/10.1063/1.3607992 J. Chem. Phys. 135, 024310 (2011)
+ 
+ ntop  2
  ncyc 10
- ctrl 1
+ ctrl  1
  print 4
- conv 0.999999999
- spin 2
+ spin  2
  reduc 0
-          
+ 
  BJ(1)         2.042491879           !The dataset consisted of two fits: One with internal rotation resolved and one without. This fit is a merger of both.
- BJ(2)         2.042489813           !The unresolved lines are used as S2 in this fit, exclusively those not used in the resolved fit were added to avoid double assignments. 
+ BJ(2)         2.042489813           !The unresolved lines are used as S2 in this fit, exclusively those unresolved lines not used in the resolved dataset were added, to avoid double assignments. 
  BK(1)        15.572445430           !The decision to identify the unresolved lines as S2 was based on three observations: 
  BK(2)        15.572541581           !                                      1) the double assigned lines between the two dataset suggest that S2 freq = unresolved freq is more likely
  B-(1)         0.061211091           !                                      2) the rms drops by 25% over identification with S1
  B-(2)         0.061209138           !                                      3) the S2 lies close to the centre of observed splittings and thus should be naturally close to an average frequency
- DJ         0.233884E-6 
+ DJ            0.233884E-6 
  DJK(1)       -3.352806E-6 
  DJK(2)       -2.923229E-6 
- dj       -26.620570E-9 
- chi_z       0.002662106 
- chi_-       0.004335960 
- chixy12       0.002864597
+ dj          -26.620570E-9 
+ chi_z         0.002662106 
+ chi_-         0.004335960 
+ chixy12       0.002864597 
  E(2)          0.759128648 
- Fxy12         0.000429641
- delta   0.625701      2.515892  ! angles matched to those used in the article fit
- epsil   -3.115667     -3.115667 ! angles matched to those used in the article fit
- V1n     29635.960137    29635.960137 
- F0      159.322
+ Fxy12         0.000429641 
+ delta         0.625701        2.515892 ! angles matched to those used in the article fit
+ epsil        -3.115667       -3.115667 ! angles matched to those used in the article fit
+ V1n       29635.960137    29635.960137 
+ F0          159.322         159.322    
  
  dqx BJ(1)
  dqx BK(1)
@@ -37,10 +36,10 @@
  dqx E(2)
  dqx chi_z
  dqx chi_-
- dqx  DJ
- dqx  DJK(1)
- dqx  DJK(2)
- dqx  dj
+ dqx DJ
+ dqx DJK(1)
+ dqx DJK(2)
+ dqx dj
  dqx V1n_1 1.0 V1n_2
  dqx chixy12
  dqx Fxy12
@@ -50,8 +49,8 @@ S  1  0
 S  1  1
 S  1 -1
 
-V  0  0    
-           
+V  0  0 
+ 
   1  1  0    0  0  0   S 3 B 2 1 F  2   2          =     20478.5517  MHz  ! data with internal rotation splittings  
   1  1  0    0  0  0   S 4 B 2 1 F  2   2          =     20478.5517  MHz  ! data with internal rotation splittings  
   1  1  0    0  0  0   S 2 B 2 1 F  2   2          =     20478.5701  MHz  ! data with internal rotation splittings  
