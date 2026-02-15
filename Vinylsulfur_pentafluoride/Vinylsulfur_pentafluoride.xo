@@ -9,7 +9,7 @@ Modified Version: XIAM-2NQ v0.38 -By Sven Herbers 14-February-2026
  Cite: J. Chem. Phys., 2025, 162, 234304, DOI: 10.1063/5.0267651 
  
  Type help now for the list of parameters : 
-~vinylsulfur pentafluoride - dataset of parent from https://doi.org/10.1063/1.5050021 J. Chem. Phys. 149, 144304 (2018)
+~Vinylsulfur pentafluoride - dataset of parent from https://doi.org/10.1063/1.5050021 J. Chem. Phys. 149, 144304 (2018)
  
    nzyk        30   print        4   eval         0   dfreq        0 
    orger        0   ints         0   maxm         8   woods       33 

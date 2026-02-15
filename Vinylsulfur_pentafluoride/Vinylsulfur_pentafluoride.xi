@@ -1,4 +1,4 @@
-~vinylsulfur pentafluoride - dataset of parent from https://doi.org/10.1063/1.5050021 J. Chem. Phys. 149, 144304 (2018)
+~Vinylsulfur pentafluoride - dataset of parent from https://doi.org/10.1063/1.5050021 J. Chem. Phys. 149, 144304 (2018)
  
 ntop   1  
 nfold  4  ! This is a fourfold rotor case
