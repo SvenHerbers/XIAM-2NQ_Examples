@@ -11,21 +11,19 @@ For example cases where the `iam.fi` and thus the compiled executable deviate fr
 Source code and detailed documentation, including a complete list of available fit parameters, is available at:   
 https://github.com/SvenHerbers/XIAM-2NQ/
 
-| Name | Data Reference | V1 | V2 | V3 | V4 | NQC1 | NQC2 | Cor. | Ex. | nfold |
-|------|------|------|------|------|------|------|------|------|------|------|
-|Benzanilide|[10.1016/j.jms.2018.07.003](https://doi.org/10.1016/j.jms.2018.07.003)|      |      |      |      |   o   |      |   x   |  |  |
-|Methylformate | [10.1016/j.jms.2009.01.016](https://doi.org/10.1016/j.jms.2009.01.016) |   x   |      |      |      |      |      |      |  |  | 
-|Vinylsulfur_pentafluoride| [10.1063/1.5050021](https://doi.org/10.1063/1.5050021)| x |      |      |      |      |      |      |  | x | 
-|Methoxyflurane|[10.1063/5.0267651](https://doi.org/10.1063/5.0267651)      |   x   |      |      |      | x    |  x    |      |  |  |
-|26Dimethylphenol |   tbp   |  x    |  x   |      |      |      |      |   x   |  | x |
-|Diethylamine |  [10.1063/1.3607992](https://doi.org/10.1063/1.3607992)  |  x    |    x  |      |      |   o   |      |   x   |  |  |
-|23Dimethyloxirane | [10.1515/zna-1996-0807](https://doi.org/10.1515/zna-1996-0807)  <br> [10.1515/zna-1992-1008](https://doi.org/10.1515/zna-1992-1008) <br> [Hartwig's Thesis](https://d-nb.info/947519505) |  x   |   x   |      |      |      |     |      |  x  |  |
+| Name | Data Reference | ntop | NQC1 | NQC2 | Cor. | Ex. | nfold |
+|------|------|------|------|------|------|------|------|
+|Benzanilide|[10.1016/j.jms.2018.07.003](https://doi.org/10.1016/j.jms.2018.07.003)|    0    |   o   |      |   x   |  |  |
+|Methylformate | [10.1016/j.jms.2009.01.016](https://doi.org/10.1016/j.jms.2009.01.016) |  1  |      |      |      |      |      |  |  | 
+|Vinylsulfur_pentafluoride| [10.1063/1.5050021](https://doi.org/10.1063/1.5050021)|  1  |      |      |      |  | x | 
+|Methoxyflurane|[10.1063/5.0267651](https://doi.org/10.1063/5.0267651)      |  1 | x    |  x    |      |  |  |
+|26Dimethylphenol |   tbp   | 2 |      |      |   x   |  | x |
+|Diethylamine |  [10.1063/1.3607992](https://doi.org/10.1063/1.3607992)  | 2 |   o   |      |   x   |  |  |
+|23Dimethyloxirane | [10.1515/zna-1996-0807](https://doi.org/10.1515/zna-1996-0807)  <br> [10.1515/zna-1992-1008](https://doi.org/10.1515/zna-1992-1008) <br> [Hartwig's Thesis](https://d-nb.info/947519505) | 2 |      |     |      |  x  |  |
 
 **tbp** = to be published.
 
-**V1, V2, V3, V4**: Internal rotors 1–4.  
-x = Internal rotor included in the model  
-empty = not used
+**ntop**: Number of internal rotors included in the model.
 
 **NQC1, NQC2**: Quadrupole coupling of nucleus 1 or nucleus 2.  
 x = exact quadrupole coupling treatment - not available with Coriolis coupling  
