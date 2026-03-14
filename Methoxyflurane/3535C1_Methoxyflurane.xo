@@ -4,7 +4,7 @@
  Please cite: H.Hartwig and H.Dreizler, Z.Naturforsch, 51a (1996) 923.
 
  
-Modified Version: XIAM-2NQ v0.38 -By Sven Herbers 14-February-2026
+Modified Version: XIAM-2NQ v0.40 -By Sven Herbers 14-March-2026
  sven_herbers@web.de
  Cite: J. Chem. Phys., 2025, 162, 234304, DOI: 10.1063/5.0267651 
  
@@ -18,6 +18,7 @@ Methoxyflurane 35/35 C1 - Dataset from https://doi.org/10.1063/5.0267651 J. Chem
    ncycl       20   svderr       0   fitscl       0   reduct       1 
    ctrl         3   spin2        3   fsort        3   nfold1       0 
    nfold2       0   nfold3       0   nfold4       0   DWSoff       0 
+   NoErr        0 
    rofit     0.000000D+00   eps       0.100000D-11   defer     0.100000D-04 
    weigf     0.000000D+00   convg     0.999000D+00   lambda    0.100000D-04 
    freq_l    0.600000D+01   freq_h    0.400000D+02   limit     0.100000D+00 
