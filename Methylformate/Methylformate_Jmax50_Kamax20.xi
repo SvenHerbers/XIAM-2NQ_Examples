@@ -1,6 +1,6 @@
 ~Methylformate Vmax0 Jmax50 Kamax20 sub-dataset of full dataset given in https://doi.org/10.1016/j.jms.2009.01.016 by Ilyushin et al. 
  
-ntop   1  !   49 parameters - 63kHz weighted; 145kHz unweighted
+ntop   1  !   49 parameters - 34kHz weighted; 94kHz unweighted
 ncyc  30 
 reduc  0 
 print  4 
