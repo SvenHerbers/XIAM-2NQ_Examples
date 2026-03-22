@@ -19,7 +19,7 @@ https://github.com/SvenHerbers/XIAM-2NQ/
 |2Iodotoluene|[10.1039/D0CP01145B](https://doi.org/10.1039/D0CP01145B)     |  1 | x    |    |      |  |  |
 |Methoxyflurane|[10.1063/5.0267651](https://doi.org/10.1063/5.0267651)      |  1 | x    |  x    |      |  |  |
 |Methylmethacrylate |   [10.1016/j.jms.2017.10.006](https://doi.org/10.1016/j.jms.2017.10.006)   | 2 |      |      |       |  |   |
-|26Dimethylphenol |   tbp   | 2 |      |      |   x   |  | x |
+|26Dimethylphenol |   [10.1021/acs.jpclett.6c0012](https://doi.org/10.1021/acs.jpclett.6c00128)   | 2 |      |      |   x   |  | x |
 |Diethylamine |  [10.1063/1.3607992](https://doi.org/10.1063/1.3607992)  | 2 |   d   |      |   x   |  |  |
 |23Dimethyloxirane | [10.1515/zna-1996-0807](https://doi.org/10.1515/zna-1996-0807)  <br> [10.1515/zna-1992-1008](https://doi.org/10.1515/zna-1992-1008) <br> [Hartwig's Thesis](https://d-nb.info/947519505) | 2 |      |     |      |  x  |  |
 
