@@ -1,8 +1,8 @@
-26Dimethylphenol - model using one methyl as 3 fold rotor and the OH as 2 fold rotor
+2,6-Dimethylphenol – dataset from doi.org/10.1021/acs.jpclett.6c00128 – fit representation changed to II lefthanded
 
-red     1 ! Watson S
-ntop    2
-nfold1  3
+red     1 ! The fit is the same as in the reference publication except that the angle used for the OH rotor was corrected
+ntop    2 ! from erroneous fixing at 0° to a axis to using 0° to b axis instead.
+nfold1  3 ! This was done by a change of representation from Ir to IIl.
 nfold2  2
 print   4
 ncyc   50 
@@ -10,23 +10,23 @@ adjf 31  ! Supresses use of derived F12
 ctrl 1   ! ctrl 1 activates coriolis coupling options.  
 DWSoff 1 ! DWSoff =0 : tunneling matrix setup between S1<->S1, S2<->S2, ... DWSoff=1: Tunnelingmatrix setup between S1<->S2, S2<->S1, S3<->S4, S4<->S3... 
  
- BJ(1)         1.385100061  
- BJ(2)         1.385100061  
- BJ(3)         1.385087259  
- BK(1)         0.893730915  
- BK(2)         0.893730915  
- BK(3)         0.893779036  
- B-(1)         0.378316253  
- B-(2)         0.378316253  
- B-(3)         0.378302859  
- Fxz12         0.003735733  
- V1n(1)       11165.651263   33758.354065  
- V1n(2)       11165.651263   33758.354065  
- V1n(3)       11302.115710   33758.354065  
- F0          160.000000000  631.700000000  
- delta(1)      0.470993827   0.000000E-9  
- delta(2)      0.470993827   0.000000E-9  
- delta(3)      0.457446874   0.000000E-9  
+ BJ(1)         1.642805802 
+ BJ(2)         1.642805802 
+ BJ(3)         1.642822653 
+ BK(1)         0.120606792 
+ BK(2)         0.120606792 
+ BK(3)         0.120563249 
+ B-(1)         0.636038671 
+ B-(2)         0.636038671 
+ B-(3)         0.636054013 
+ Fxz12         0.003718140 
+ V1n(1)       11134.427272    33725.371243  
+ V1n(2)       11134.427272    33725.371243  
+ V1n(3)       11299.999487    33725.371243  
+ F0          160.000000000   631.700000000  
+ delta(1)      1.072667946     0.000000E-9  
+ delta(2)      1.072667946     0.000000E-9  
+ delta(3)      1.108707875     0.000000E-9  
  
  dqx BJ(1)  1.0 BJ(2) 
  dqx BK(1)  1.0 BK(2) 
