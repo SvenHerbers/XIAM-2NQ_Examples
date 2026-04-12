@@ -1,4 +1,4 @@
-~s-trans Methylmethacrylate - dataset of parent from https://doi.org/10.1016/j.jms.2017.10.006 J. Mol. Spectrosc. 343 (2018) 96–101.
+~s-trans Methylmethacrylate - dataset of parent from https://doi.org/10.1016/j.jms.2017.10.006 J. Mol. Spectrosc. 343 (2018) 96–101. 
 
 ntop   2                            ! The original dataset used difference frequencies as input for splittings relative to a reference transition. 
 ncyc  30                            ! I transformed these back to absolute frequencies for use as input.
