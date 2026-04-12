@@ -9,7 +9,7 @@ ncyc   50
 adjf 31  ! Supresses use of derived F12
 ctrl 1   ! ctrl 1 activates coriolis coupling options.  
 DWSoff 1 ! DWSoff =0 : tunneling matrix setup between S1<->S1, S2<->S2, ... DWSoff=1: Tunnelingmatrix setup between S1<->S2, S2<->S1, S3<->S4, S4<->S3... 
- 
+
  BJ(1)         1.642805802 
  BJ(2)         1.642805802 
  BJ(3)         1.642822653 
