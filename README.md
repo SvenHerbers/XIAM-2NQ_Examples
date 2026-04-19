@@ -4,7 +4,7 @@ Contact: sven_herbers@web.de
 The table below lists the example cases together with references to the datasets used and which features of XIAM-2NQ are activated in each example.  
 All molecular datasets were taken from the reference sources and refit using XIAM-2NQ.  
 
-The **executable** in the main directory is compiled for up to 2 tops, Jmax=71, I1max=5/2, I2max=5/2, and up to 5 sets of parameters (set 1,2 and 3,4 available as vibrational states in Coriolis Coupling treatment).  
+The **executable** in the main directory is compiled for up to 2 tops, Jmax=71, I1max=5/2, I2max=5/2, and up to 6 sets of parameters (set 1,2 and 3,4 as well as 5,6 available as vibrational states in Coriolis Coupling treatment).  
 By adjusting the `iam.fi` in the source directory and recompiling these limits can be chaged.  
 For example cases where the `iam.fi` and thus the compiled executable deviate from these default settings, a recompiled executable together with the used pre-compilation setting file (`iam.fi`) is added to the directory of the example.
 
