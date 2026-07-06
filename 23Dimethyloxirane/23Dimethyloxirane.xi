@@ -2,7 +2,7 @@ Trans-23Dimethyloxirane ! Example fit was run with a recompiled Version with max
                         ! DIMVV increase to 3 was required since a coupled basis is used of type V 0 0 V 1 0 V 0 1 introducing matrix elements offdiagonal in V.
 ntop  2          !Dataset Reference:  Zeitschrift für Naturforschung A, vol. 51, no. 8, 1996, pp. 923-932. https://doi.org/10.1515/zna-1996-0807  
 print 4          !Additional Groundstate data in: Zeitschrift für Naturforschung A, vol. 47, no. 10, 1992, pp. 1051-1057. https://doi.org/10.1515/zna-1992-1008
-ncyc  40         !Data was combines with values found in Hartwigs Thesis titled: "Mikrowellenspektroskopische Untersuchungen und Analyse der internen Rotation an Dimethyloxiranen und Dimethylthiiranen" 1995
+ncyc  40         !Data was combined with values found in Hartwigs Thesis titled: "Mikrowellenspektroskopische Untersuchungen und Analyse der internen Rotation an Dimethyloxiranen und Dimethylthiiranen" 1995
                  
  BJ(1)         3.247660978  
  BJ(2)         3.245847009  
