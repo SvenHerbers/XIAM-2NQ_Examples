@@ -1,12 +1,12 @@
 # XIAM-2NQ_Examples
 Contact: sven_herbers@web.de
 
-The table below lists the example cases together with references to the datasets used and which features of XIAM-2NQ are activated in each example.  
+The table below lists the example-cases together with references to the datasets used and which features of XIAM-2NQ are activated in each example.  
 All molecular datasets were taken from the reference sources and refit using XIAM-2NQ.  
 
 The **executable** in the main directory is compiled for up to 2 tops, Jmax=71, I1max=5/2, I2max=5/2, and up to 6 sets of parameters (set 1,2 and 3,4 as well as 5,6 available as vibrational states in Coriolis Coupling treatment).  
 By adjusting the `iam.fi` in the source directory and recompiling these limits can be changed.  
-For example cases where the `iam.fi` and thus the compiled executable deviate from these default settings, a recompiled executable together with the used pre-compilation setting file (`iam.fi`) is added to the directory of the example.
+For example-cases where the `iam.fi` and thus the compiled executable deviate from these default settings, a recompiled executable together with the used pre-compilation setting file (`iam.fi`) is added to the directory of the example.
 
 Source code and detailed documentation, including a complete list of available fit parameters, is available at:   
 https://github.com/SvenHerbers/XIAM-2NQ/
@@ -25,8 +25,6 @@ https://github.com/SvenHerbers/XIAM-2NQ/
 |Diethylamine |  [10.1063/1.3607992](https://doi.org/10.1063/1.3607992)  | 2 |   x   |      |   x   |  |  |
 |23Dimethyloxirane | [10.1515/zna-1996-0807](https://doi.org/10.1515/zna-1996-0807)  <br> [10.1515/zna-1992-1008](https://doi.org/10.1515/zna-1992-1008) <br> [Hartwig's Thesis](https://d-nb.info/947519505) | 2 |      |     |      |  x  |  |
 
-**tbp** = to be published.
-
 **ntop**: Number of internal rotors included in the model.
 
 **NQC1, NQC2**: Quadrupole coupling of nucleus 1 or nucleus 2.  
@@ -38,7 +36,7 @@ x = used in the fit
 empty = not used
 
 **Ex.**: Excited torsional states may be included. If they are to be coupled by matrix elements off-diagonal in the torsional quantum number, `DIMVV` in `iam.fi` must be increased from its default (1) before compilation. Such coupling is currently incompatible with exact NQC or Pickett/Wilson-type Coriolis terms: if the Hamiltonian is off-diagonal in torsion, it must be diagonal in J and all other vibrational quantum numbers.  
-If torsional states are fitted separately, with no off-diagonal elements in torsional quantum number, `DIMVV` need not be increased, and exact NQC **or** Pickett/Wilson-type Coriolis terms are allowed.   
+If torsional states are fitted separately, with no off-diagonal elements in torsional quantum number, `DIMVV` needs not to be increased, and simultaneous use of exact NQC **and** Pickett Coriolis coupling is possible.   
 x = dataset includes excited torsional states  
 empty = only torsional ground state data
 
