@@ -13,7 +13,7 @@ https://github.com/SvenHerbers/XIAM-2NQ/
 
 | Name | Data Reference | ntop | NQC1 | NQC2 | Cor. | Ex. | nfold |
 |------|------|------|------|------|------|------|------|
-|Benzanilide|[10.1016/j.jms.2018.07.003](https://doi.org/10.1016/j.jms.2018.07.003)|    0    |   d   |      |   x   |  |  |
+|Benzanilide|[10.1016/j.jms.2018.07.003](https://doi.org/10.1016/j.jms.2018.07.003)|    0    |   x   |      |   x   |  |  |
 |Dichloromethane-Ne|[10.1021/acs.jpca.5b09090](https://doi.org/10.1021/acs.jpca.5b09090)|    0    |   x   |   x   |   x   |  |  |
 |Methylformate | [10.1016/j.jms.2009.01.016](https://doi.org/10.1016/j.jms.2009.01.016) |  1  |      |      |      |      |      |  |  | 
 |Phenylacetate | [10.3390/molecules27092730](https://doi.org/10.3390/molecules27092730)|  1  |      |      |   x   |  |  | 
