@@ -1,4 +1,4 @@
- Phenylacetate - Dataset derived from supplementary material of https://doi.org/10.3390/molecules27092730refitted Molecules, 27(9), 2730 (2022)
+ Phenylacetate - Dataset derived from supplementary material of https://doi.org/10.3390/molecules27092730 Molecules, 27(9), 2730 (2022)
  
 red     1  ! E(2) and E(4) are the corresponding Hamiltonian energy offsets; they are correlated with the torsional energy difference
 ntop    1  ! introduced by using different internal-rotation parameters.

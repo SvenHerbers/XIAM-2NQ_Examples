@@ -3,7 +3,7 @@
                            2026/09/06
 =====================================================================
 
- Execution time : 2026/09/06 19:42:04
+ Execution time : 2026/09/06 19:46:29
 
  Author         : Sven Herbers
  Email          : sven_herbers@web.de
@@ -21,7 +21,7 @@
 
 =====================================================================
  
-Phenylacetate - Dataset derived from supplementary material of https://doi.org/10.3390/molecules27092730refitted Molecules, 27(9), 2730 (2022)
+Phenylacetate - Dataset derived from supplementary material of https://doi.org/10.3390/molecules27092730 Molecules, 27(9), 2730 (2022)
    DIMJ        71   DIMTOP       2   DIMSIG       1   DIMM        31 
    DIMVV        1   DIMV         6   DIMVB        6   DIMQ         6 
    DIMQ2        6   DIMDW        2   DIMUNI     858   DIMLIN   15000 
