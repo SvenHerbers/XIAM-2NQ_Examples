@@ -2,7 +2,6 @@
  
  ntop  2
  ncyc 10
- ctrl  1
  print 4
  spin  2
  reduc 0
@@ -10,7 +9,7 @@
  BJ(1)         2.042491879           !The dataset consisted of two fits: One with internal rotation resolved and one without. This fit is a merger of both.
  BJ(2)         2.042489813           !The unresolved lines are used as S2 in this fit, exclusively those unresolved lines not used in the resolved dataset were added, to avoid double assignments. 
  BK(1)        15.572445430           !The decision to identify the unresolved lines as S2 was based on three observations: 
- BK(2)        15.572541581           !                                      1) the double assigned lines between the two dataset suggest that S2 freq = unresolved freq is more likely
+ BK(2)        15.572541581           !                                      1) the double assigned lines between the two datasets suggest that S2 freq = unresolved freq is more likely
  B-(1)         0.061211091           !                                      2) the rms drops by 25% over identification with S1
  B-(2)         0.061209138           !                                      3) the S2 lies close to the centre of observed splittings and thus should be naturally close to an average frequency
  DJ            0.233884E-6 
@@ -19,7 +18,7 @@
  dj          -26.620570E-9 
  chi_z         0.002662106 
  chi_-         0.004335960 
- chixy12       0.002864597 
+ ch1xy12       0.002864597 
  E(2)          0.759128648 
  Fxy12         0.000429641 
  delta         0.625701        2.515892 ! angles matched to those used in the article fit
@@ -41,7 +40,7 @@
  dqx DJK(2)
  dqx dj
  dqx V1n_1 1.0 V1n_2
- dqx chixy12
+ dqx ch1xy12
  dqx Fxy12
  
 S  0  0
