@@ -1,11 +1,11 @@
-~s-trans Methylmethacrylate - dataset of parent from https://doi.org/10.1016/j.jms.2017.10.006 J. Mol. Spectrosc. 343 (2018) 96–101. 
+ s-trans Methylmethacrylate - Dataset of from https://doi.org/10.1016/j.jms.2017.10.006 J. Mol. Spectrosc. 343, 96–101 (2018) 
 
 ntop   2                            ! The original dataset used difference frequencies as input for splittings relative to a reference transition. 
-ncyc  30                            ! I transformed these back to absolute frequencies for use as input.
-reduc  1                            ! I removed most line comments that explained the choice of uncertainties for individual transitions.
-print  4                            ! I retained comments indicating potential additional splittings (suspected to originate from spin–coupling effects of the methyl rotor hydrogens).
+ncyc  30                            ! These frequencies were transformed back to absolute frequencies for use as input here.
+reduc  1                            ! Most line comments that explained the choice of uncertainties for individual transitions were removed.
+print  4                            ! Line comments indicating potential additional splittings were retained (often suspected to originate from spin–coupling effects of the methyl rotor hydrogens).
 conv 1.0                            ! This is the fit of the most abundant isotopologue of the s-trans conformer. 
-                                    ! Data for the c-cis conformer as well as fits for other isotopologues are available in the reference dataset.                                      
+                                    ! Data for the c-cis conformer as well as fits for other isotopologues are available in the reference dataset.
  BJ            1.702672669
  BK            3.393805322
  B-            0.259288218

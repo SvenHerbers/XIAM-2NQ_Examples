@@ -1,18 +1,30 @@
- Rotational, Centrifugal Distortion, Internal Rotation Calculation (V2.5e)
-                       Holger Hartwig 08-Nov-96 (hartwig@phc.uni-kiel.de)
+=====================================================================
+                         XIAM-2NQ v1.00
+                           2026/09/06
+=====================================================================
 
- Please cite: H.Hartwig and H.Dreizler, Z.Naturforsch, 51a (1996) 923.
+ Execution time : 2026/09/06 20:23:29
 
+ Author         : Sven Herbers
+ Email          : sven_herbers@web.de
+
+ Based on XIAM (v2.5e)
+ Holger Hartwig (1996/11/08)
+
+ Please cite:
+
+   J. Chem. Phys., 2025, 162, 234304
+   DOI: 10.1063/5.0267651
+
+   Z. Naturforsch. A, 1996, 51a, 923
+   DOI: 10.1515/zna-1996-0807
+
+=====================================================================
  
-Modified Version: XIAM-2NQ v0.46 -By Sven Herbers 05-July-2026
- sven_herbers@web.de
- Cite: J. Chem. Phys., 2025, 162, 234304, DOI: 10.1063/5.0267651 
- 
- Type help now for the list of parameters : 
-~s-trans Methylmethacrylate - dataset of parent from https://doi.org/10.1016/j.jms.2017.10.006 J. Mol. Spectrosc. 343 (2018) 96–101.
+s-trans Methylmethacrylate - Dataset of from https://doi.org/10.1016/j.jms.2017.10.006 J. Mol. Spectrosc. 343, 96–101 (2018)
    DIMJ        71   DIMTOP       2   DIMSIG       1   DIMM        31 
    DIMVV        1   DIMV         6   DIMVB        6   DIMQ         6 
-   DIMQ2        6   DIMDW        2   DIMUNI     572   DIMLIN   15000 
+   DIMQ2        6   DIMDW        2   DIMUNI     858   DIMLIN   15000 
  
    nzyk        30   print        4   eval         0   dfreq        0 
    orger        0   ints         0   maxm         8   woods       33 
@@ -50,8 +62,8 @@ Modified Version: XIAM-2NQ v0.46 -By Sven Herbers 05-July-2026
 \F12           4.201723506               
 \F           163.870552028                 165.180638223                
  V1n          18862.333309                  13528.797241                
-\rho           0.024965616                   0.031066526                
-\beta          0.336840529                   0.094588265                
+\rho          24.965616E-3                  31.066526E-3                
+\beta          0.336840529                  94.588265E-3                
  F0          160.000000000                 160.000000000                
  delta         0.738125999                   0.241627301                
  
@@ -316,9 +328,9 @@ x   105:  2  2  0  1  1  1    S 4   0.000000000        8.140    0.000008140   Er
 \F12           4.201718956 {     derived}
 \F           163.870547151 {     derived}  165.180637759 {     derived} 
  V1n          18862.328580 {   -0.004729}   13528.797079 {   -0.000162} 
-\rho           0.024965592 {     derived}    0.031066525 {     derived} 
-\beta          0.336841420 {     derived}    0.094588326 {     derived} 
-\gamma         0.000000E-9 {     derived}    0.000000E-9 {     derived} 
+\rho          24.965592E-3 {     derived}   31.066525E-3 {     derived} 
+\beta          0.336841420 {     derived}   94.588326E-3 {     derived} 
+\gamma         0.000000000 {     derived}    0.000000000 {     derived} 
  delta         0.738127420 { 0.000001421}    0.241627451 { 0.000000150} 
  DJ      (1)    0.104090E-6  -0.000000E-6   0.000% Max. Change
 
@@ -626,8 +638,8 @@ x   105:  2  2  0  1  1  1    S 4   0.000000000        8.140    0.000008140   Er
 \F12           4.201718956 {     derived}
 \F           163.870547151 {     derived}  165.180637759 {     derived} 
  V1n          18862.328580 {   12.581545}   13528.797079 {    1.382588} 
-\rho           0.024965592 {     derived}    0.031066525 {     derived} 
-\beta          0.336841420 {     derived}    0.094588326 {     derived} 
+\rho          24.965592E-3 {     derived}   31.066525E-3 {     derived} 
+\beta          0.336841420 {     derived}   94.588326E-3 {     derived} 
  F0          160.000000000 {     fixed  }  160.000000000 {     fixed  } 
  delta         0.738127420 { 0.003627401}    0.241627451 { 0.001494010} 
 
@@ -651,8 +663,14 @@ d<(i,x) d<(i,y) d<(i,z)        0.0856        0.0000        0.0856
  
  V1n_1       7.526660 kj +/- 0.005020 kj         1.797668 kcal +/- 0.001199 kcal
           629.179557 cm +/-   0.4197 cm    s = 4V1n/9F =   51.157803
+Torsional V=0 k=0 energies for top   1
+sigma = 0 :   2541.356667832 GHz 
+sigma = 1 :   2541.384070190 GHz 
  V1n_2       5.398414 kj +/- 0.000552 kj         1.289357 kcal +/- 0.000132 kcal
           451.272096 cm +/-   0.0461 cm    s = 4V1n/9F =   36.401353
+Torsional V=0 k=0 energies for top   2
+sigma = 0 :   2144.843471247 GHz 
+sigma = 1 :   2145.041428120 GHz 
  
 F(calc)       163.870547151
 F(calc)       165.180637759
