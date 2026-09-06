@@ -5,7 +5,7 @@ The table below lists the example cases together with references to the datasets
 All molecular datasets were taken from the reference sources and refit using XIAM-2NQ.  
 
 The **executable** in the main directory is compiled for up to 2 tops, Jmax=71, I1max=5/2, I2max=5/2, and up to 6 sets of parameters (set 1,2 and 3,4 as well as 5,6 available as vibrational states in Coriolis Coupling treatment).  
-By adjusting the `iam.fi` in the source directory and recompiling these limits can be chaged.  
+By adjusting the `iam.fi` in the source directory and recompiling these limits can be changed.  
 For example cases where the `iam.fi` and thus the compiled executable deviate from these default settings, a recompiled executable together with the used pre-compilation setting file (`iam.fi`) is added to the directory of the example.
 
 Source code and detailed documentation, including a complete list of available fit parameters, is available at:   
@@ -14,6 +14,7 @@ https://github.com/SvenHerbers/XIAM-2NQ/
 | Name | Data Reference | ntop | NQC1 | NQC2 | Cor. | Ex. | nfold |
 |------|------|------|------|------|------|------|------|
 |Benzanilide|[10.1016/j.jms.2018.07.003](https://doi.org/10.1016/j.jms.2018.07.003)|    0    |   d   |      |   x   |  |  |
+|Dichloromethane-Ne|[10.1021/acs.jpca.5b09090]([https://doi.org/10.1016/j.jms.2018.07.003](https://doi.org/10.1021/acs.jpca.5b09090))|    0    |   x   |   x   |   x   |  |  |
 |Methylformate | [10.1016/j.jms.2009.01.016](https://doi.org/10.1016/j.jms.2009.01.016) |  1  |      |      |      |      |      |  |  | 
 |Vinylsulfurpentafluoride| [10.1063/1.5050021](https://doi.org/10.1063/1.5050021)|  1  |      |      |      |  | x | 
 |2Iodotoluene|[10.1039/D0CP01145B](https://doi.org/10.1039/D0CP01145B)     |  1 | x    |    |      |  |  |
@@ -28,11 +29,10 @@ https://github.com/SvenHerbers/XIAM-2NQ/
 **ntop**: Number of internal rotors included in the model.
 
 **NQC1, NQC2**: Quadrupole coupling of nucleus 1 or nucleus 2.  
-x = exact quadrupole coupling treatment - not available with Coriolis coupling  
-d = only matrix elements **diagonal in J** included - only available for NQC1, and only if NQC2 is not used   
+x = exact quadrupole coupling treatment    
 empty = not used
 
-**Cor.**: Coriolis terms off-diagonal in the vibrational quantum number using either Pickett-type (Fxz, Fxy, Fyz) or Wilson-type (Gz, Gx, Gy) formulation. At the moment Pickett-Type and Wilson-Type should not be mixed (see documentation). Pickett-type also available with (chixz, chixy, chiyz) J-diagonal-terms off-diagonal in vib quantum number. Needs to be activated using control parameter `ctrl 1` in the input file.  
+**Cor.**: Coriolis terms off-diagonal in the vibrational quantum number using either Pickett-type (Fxz12,... ) or Wilson-type (Gz12,... ) formulation. At the moment Pickett-Type and Wilson-Type should not be mixed (see documentation). Pickett-type also available with (ch1xz12,... ch2xz12,...) exact quadrupole coupling terms off-diagonal in vib quantum number (see Diethylamine).  
 x = used in the fit  
 empty = not used
 
