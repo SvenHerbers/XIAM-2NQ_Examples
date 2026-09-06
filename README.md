@@ -16,6 +16,7 @@ https://github.com/SvenHerbers/XIAM-2NQ/
 |Benzanilide|[10.1016/j.jms.2018.07.003](https://doi.org/10.1016/j.jms.2018.07.003)|    0    |   d   |      |   x   |  |  |
 |Dichloromethane-Ne|[10.1021/acs.jpca.5b09090](https://doi.org/10.1021/acs.jpca.5b09090)|    0    |   x   |   x   |   x   |  |  |
 |Methylformate | [10.1016/j.jms.2009.01.016](https://doi.org/10.1016/j.jms.2009.01.016) |  1  |      |      |      |      |      |  |  | 
+|Phenylacetate | [10.3390/molecules27092730](https://doi.org/10.3390/molecules27092730)|  1  |      |      |   x   |  |  | 
 |Vinylsulfurpentafluoride| [10.1063/1.5050021](https://doi.org/10.1063/1.5050021)|  1  |      |      |      |  | x | 
 |2Iodotoluene|[10.1039/D0CP01145B](https://doi.org/10.1039/D0CP01145B)     |  1 | x    |    |      |  |  |
 |Methoxyflurane|[10.1063/5.0267651](https://doi.org/10.1063/5.0267651)      |  1 | x    |  x    |      |  |  |
