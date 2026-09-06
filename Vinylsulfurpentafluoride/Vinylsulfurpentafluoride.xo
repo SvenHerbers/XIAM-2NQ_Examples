@@ -1,18 +1,30 @@
- Rotational, Centrifugal Distortion, Internal Rotation Calculation (V2.5e)
-                       Holger Hartwig 08-Nov-96 (hartwig@phc.uni-kiel.de)
+=====================================================================
+                         XIAM-2NQ v1.00
+                           2026/09/06
+=====================================================================
 
- Please cite: H.Hartwig and H.Dreizler, Z.Naturforsch, 51a (1996) 923.
+ Execution time : 2026/09/06 20:45:42
 
+ Author         : Sven Herbers
+ Email          : sven_herbers@web.de
+
+ Based on XIAM (v2.5e)
+ Holger Hartwig (1996/11/08)
+
+ Please cite:
+
+   J. Chem. Phys., 2025, 162, 234304
+   DOI: 10.1063/5.0267651
+
+   Z. Naturforsch. A, 1996, 51a, 923
+   DOI: 10.1515/zna-1996-0807
+
+=====================================================================
  
-Modified Version: XIAM-2NQ v0.46 -By Sven Herbers 05-July-2026
- sven_herbers@web.de
- Cite: J. Chem. Phys., 2025, 162, 234304, DOI: 10.1063/5.0267651 
- 
- Type help now for the list of parameters : 
-Vinylsulfurpentafluoride - dataset of parent from https://doi.org/10.1063/1.5050021 J. Chem. Phys. 149, 144304 (2018)
+Vinylsulfurpentafluoride - dataset of from https://doi.org/10.1063/1.5050021 J. Chem. Phys. 149, 144304 (2018)
    DIMJ        71   DIMTOP       2   DIMSIG       2   DIMM        31 
    DIMVV        1   DIMV         6   DIMVB        6   DIMQ         6 
-   DIMQ2        6   DIMDW        2   DIMUNI     572   DIMLIN   15000 
+   DIMQ2        6   DIMDW        2   DIMUNI     858   DIMLIN   15000 
  
    nzyk        30   print        4   eval         0   dfreq        0 
    orger        0   ints         0   maxm         8   woods       33 
@@ -39,7 +51,7 @@ Vinylsulfurpentafluoride - dataset of parent from https://doi.org/10.1063/1.5050
  new adj :  25
  BJ            1.722561477               
  BK            0.857049459               
- B-            0.012782266               
+ B-           12.782266E-3               
  DJ           95.877151E-9               
  DJK           1.472583E-6               
  DK           -0.972813E-6               
@@ -190,7 +202,7 @@ Vinylsulfurpentafluoride - dataset of parent from https://doi.org/10.1063/1.5050
                Parameters     Change
  BJ            1.722561477 {-0.000000000}
  BK            0.857049459 { 0.000000000}
- B-            0.012782266 { 0.000000000}
+ B-           12.782266E-3 { 0.000000E-3}
  DJ           95.877150E-9 {-0.000001E-9}
  DJK           1.472583E-6 { 0.000000E-6}
  DK           -0.972813E-6 { 0.000000E-6}
@@ -198,7 +210,7 @@ Vinylsulfurpentafluoride - dataset of parent from https://doi.org/10.1063/1.5050
  V1n           6801.931667 {   -0.000003} 
 \rho           0.940839954 {     derived} 
 \beta          0.262906143 {     derived} 
-\gamma         0.000000E-9 {     derived} 
+\gamma         0.000000000 {     derived} 
  F0            2.636232502 {-0.000000000} 
  delta         0.380569990 {-0.000000000} 
  DK      (1)   -0.972813E-6   0.000000E-6   0.000% Max. Change
@@ -219,7 +231,7 @@ Vinylsulfurpentafluoride - dataset of parent from https://doi.org/10.1063/1.5050
                Parameters     Change
  BJ            1.722561477 {-0.000000000}
  BK            0.857049459 {-0.000000000}
- B-            0.012782266 { 0.000000000}
+ B-           12.782266E-3 { 0.000000E-3}
  DJ           95.877148E-9 {-0.000002E-9}
  DJK           1.472583E-6 {-0.000000E-6}
  DK           -0.972813E-6 { 0.000000E-6}
@@ -227,7 +239,7 @@ Vinylsulfurpentafluoride - dataset of parent from https://doi.org/10.1063/1.5050
  V1n           6801.931660 {   -0.000006} 
 \rho           0.940839954 {     derived} 
 \beta          0.262906143 {     derived} 
-\gamma         0.000000E-9 {     derived} 
+\gamma         0.000000000 {     derived} 
  F0            2.636232502 { 0.000000000} 
  delta         0.380569990 {-0.000000000} 
  DJK     (1)    1.472583E-6  -0.000000E-6   0.000% Max. Change
@@ -421,7 +433,7 @@ Vinylsulfurpentafluoride - dataset of parent from https://doi.org/10.1063/1.5050
             Parameters  and  Errors
  BJ            1.722561477 { 0.000000087}
  BK            0.857049459 { 0.000000341}
- B-            0.012782266 { 0.000000056}
+ B-           12.782266E-3 { 0.000056E-3}
  DJ           95.877148E-9 { 1.399450E-9}
  DJK           1.472583E-6 { 0.017360E-6}
  DK           -0.972813E-6 { 0.011369E-6}
@@ -449,6 +461,10 @@ d<(i,x) d<(i,y) d<(i,z)        0.0007        0.0000        0.0007
  
  V1n_1       2.714184 kj +/- 0.000560 kj         0.648256 kcal +/- 0.000134 kcal
           226.888018 cm +/-   0.0468 cm    s = 4V1n/9F =   75.301324
+Torsional V=0 k=0 energies for top   1
+sigma = 0 :   1003.198272012 GHz 
+sigma = 1 :   1003.223143014 GHz 
+sigma = 2 :   1003.248016746 GHz 
  
 
  Errors of fitted linear combinations
