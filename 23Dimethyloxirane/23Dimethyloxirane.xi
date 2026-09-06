@@ -1,7 +1,7 @@
-Trans-23Dimethyloxirane ! Example fit was run with a recompiled Version with max J reduced to 31 and DIMVV increased to 3. 
-                        ! DIMVV increase to 3 was required since a coupled basis is used of type V 0 0 V 1 0 V 0 1 introducing matrix elements offdiagonal in V.
+ Trans-23Dimethyloxirane ! Example fit was run with a recompiled Version - see output file for adjusted dimensions
+                         ! DIMVV increase to 3 was required since a coupled basis is used of type V 0 0 V 1 0 V 0 1 introducing matrix elements offdiagonal in V.
 ntop  2          !Dataset Reference:  Zeitschrift für Naturforschung A, vol. 51, no. 8, 1996, pp. 923-932. https://doi.org/10.1515/zna-1996-0807  
-print 4          !Additional Groundstate data in: Zeitschrift für Naturforschung A, vol. 47, no. 10, 1992, pp. 1051-1057. https://doi.org/10.1515/zna-1992-1008
+print 4          !Additional ground state data in: Zeitschrift für Naturforschung A, vol. 47, no. 10, 1992, pp. 1051-1057. https://doi.org/10.1515/zna-1992-1008
 ncyc  40         !Data was combined with values found in Hartwigs Thesis titled: "Mikrowellenspektroskopische Untersuchungen und Analyse der internen Rotation an Dimethyloxiranen und Dimethylthiiranen" 1995
                  
  BJ(1)         3.247660978  
@@ -27,16 +27,16 @@ ncyc  40         !Data was combined with values found in Hartwigs Thesis titled:
  epsil        -1.095054671      1.095054671  
  delta         0.422376366      2.719216288  
  
- fit BJ(1)
- fit BJ(2)
- fit BJ(3)
+ fit BJ(1) 
+ fit BJ(2) 
+ fit BJ(3) 
  fit BK(1) 
  fit BK(2) 
- fit BK(3)  
- fit B-(1)  
- fit B-(2)  
- fit B-(3)  
- fit DJ
+ fit BK(3) 
+ fit B-(1) 
+ fit B-(2) 
+ fit B-(3) 
+ fit DJ    
  fit DK(1) 
  fit DK(2) 
  fit DK(3) 
@@ -55,7 +55,7 @@ ncyc  40         !Data was combined with values found in Hartwigs Thesis titled:
    S     1   1   !  
    S    -1   1   !  
    S     0   1   !  
-                      
+                    
  V 0 0 V 1 0 V 0 1 
 
   1  1  1   0  0  0       S 1 V 1 B 1       =  15.309892    Err 0.00001

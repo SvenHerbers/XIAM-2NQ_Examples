@@ -1,18 +1,30 @@
- Rotational, Centrifugal Distortion, Internal Rotation Calculation (V2.5e)
-                       Holger Hartwig 08-Nov-96 (hartwig@phc.uni-kiel.de)
+=====================================================================
+                         XIAM-2NQ v1.00
+                           2026/09/06
+=====================================================================
 
- Please cite: H.Hartwig and H.Dreizler, Z.Naturforsch, 51a (1996) 923.
+ Execution time : 2026/09/06 20:41:03
 
+ Author         : Sven Herbers
+ Email          : sven_herbers@web.de
+
+ Based on XIAM (v2.5e)
+ Holger Hartwig (1996/11/08)
+
+ Please cite:
+
+   J. Chem. Phys., 2025, 162, 234304
+   DOI: 10.1063/5.0267651
+
+   Z. Naturforsch. A, 1996, 51a, 923
+   DOI: 10.1515/zna-1996-0807
+
+=====================================================================
  
-Modified Version: XIAM-2NQ v0.46 -By Sven Herbers 05-July-2026
- sven_herbers@web.de
- Cite: J. Chem. Phys., 2025, 162, 234304, DOI: 10.1063/5.0267651 
- 
- Type help now for the list of parameters : 
 Trans-23Dimethyloxirane 
    DIMJ        31   DIMTOP       2   DIMSIG       1   DIMM        31 
-   DIMVV        3   DIMV         6   DIMVB        6   DIMQ         6 
-   DIMQ2        6   DIMDW        2   DIMUNI     252   DIMLIN   15000 
+   DIMVV        3   DIMV         6   DIMVB        6   DIMQ         1 
+   DIMQ2        1   DIMDW        1   DIMUNI      63   DIMLIN   15000 
  
    nzyk        40   print        4   eval         0   dfreq        0 
    orger        0   ints         0   maxm         8   woods       33 
@@ -82,9 +94,9 @@ Trans-23Dimethyloxirane
 \F(3)        169.757432884                 169.757432887                
  V1n          26065.453427                  26065.453427                
  V2n        -659.793416402                -659.793416402                
-\rho(1)        0.071373968                   0.071373968                
-\rho(2)        0.071225930                   0.071225930                
-\rho(3)        0.071230685                   0.071230685                
+\rho(1)       71.373968E-3                  71.373968E-3                
+\rho(2)       71.225930E-3                  71.225930E-3                
+\rho(3)       71.230685E-3                  71.230685E-3                
 \beta(1)       0.115141108                   3.026451546                
 \beta(2)       0.115315837                   3.026276816                
 \beta(3)       0.115276638                   3.026316016                
@@ -816,9 +828,9 @@ Trans-23Dimethyloxirane
 \F(3)        169.757432884 {     derived}  169.757432887 {     derived} 
  V1n          26065.453427 {    6.013302}   26065.453427 {    6.013302} 
  V2n        -659.793416402 { 2.978593056} -659.793416402 { 2.978593056} 
-\rho(1)        0.071373968 {     derived}    0.071373968 {     derived} 
-\rho(2)        0.071225930 {     derived}    0.071225930 {     derived} 
-\rho(3)        0.071230685 {     derived}    0.071230685 {     derived} 
+\rho(1)       71.373968E-3 {     derived}   71.373968E-3 {     derived} 
+\rho(2)       71.225930E-3 {     derived}   71.225930E-3 {     derived} 
+\rho(3)       71.230685E-3 {     derived}   71.230685E-3 {     derived} 
 \beta(1)       0.115141108 {     derived}    3.026451546 {     derived} 
 \beta(2)       0.115315837 {     derived}    3.026276816 {     derived} 
 \beta(3)       0.115276638 {     derived}    3.026316016 {     derived} 
@@ -849,8 +861,14 @@ d<(i,x) d<(i,y) d<(i,z)        0.1112        0.0805        0.0319
  
  V1n_1      10.400932 kj +/- 0.002399 kj         2.484159 kcal +/- 0.000573 kcal
           869.449939 cm +/-   0.2006 cm    s = 4V1n/9F =   68.231081
+Torsional V=0 k=0 energies for top   1
+sigma = 0 :   2922.270656914 GHz 
+sigma = 1 :   2922.275263491 GHz 
  V1n_2      10.400932 kj +/- 0.002399 kj         2.484159 kcal +/- 0.000573 kcal
           869.449939 cm +/-   0.2006 cm    s = 4V1n/9F =   68.231081
+Torsional V=0 k=0 energies for top   2
+sigma = 0 :   2922.270656941 GHz 
+sigma = 1 :   2922.275263518 GHz 
  V2n_1      -0.263278 kj +/- 0.001189 kj        -0.062881 kcal +/- 0.000284 kcal
           -22.008339 cm +/-   0.0994 cm 
  V2n_2      -0.263278 kj +/- 0.001189 kj        -0.062881 kcal +/- 0.000284 kcal
@@ -879,8 +897,14 @@ d<(i,x) d<(i,y) d<(i,z)        0.1112        0.0805        0.0319
  
  V1n_1      10.400932 kj +/- 0.002399 kj         2.484159 kcal +/- 0.000573 kcal
           869.449939 cm +/-   0.2006 cm    s = 4V1n/9F =   68.242670
+Torsional V=0 k=0 energies for top   1
+sigma = 0 :   2922.028911741 GHz 
+sigma = 1 :   2922.033511791 GHz 
  V1n_2      10.400932 kj +/- 0.002399 kj         2.484159 kcal +/- 0.000573 kcal
           869.449939 cm +/-   0.2006 cm    s = 4V1n/9F =   68.242670
+Torsional V=0 k=0 energies for top   2
+sigma = 0 :   2922.028911768 GHz 
+sigma = 1 :   2922.033511818 GHz 
  V2n_1      -0.263278 kj +/- 0.001189 kj        -0.062881 kcal +/- 0.000284 kcal
           -22.008339 cm +/-   0.0994 cm 
  V2n_2      -0.263278 kj +/- 0.001189 kj        -0.062881 kcal +/- 0.000284 kcal
@@ -909,8 +933,14 @@ d<(i,x) d<(i,y) d<(i,z)        0.1112        0.0805        0.0319
  
  V1n_1      10.400932 kj +/- 0.002399 kj         2.484159 kcal +/- 0.000573 kcal
           869.449939 cm +/-   0.2006 cm    s = 4V1n/9F =   68.242349
+Torsional V=0 k=0 energies for top   1
+sigma = 0 :   2922.035615990 GHz 
+sigma = 1 :   2922.040216221 GHz 
  V1n_2      10.400932 kj +/- 0.002399 kj         2.484159 kcal +/- 0.000573 kcal
           869.449939 cm +/-   0.2006 cm    s = 4V1n/9F =   68.242349
+Torsional V=0 k=0 energies for top   2
+sigma = 0 :   2922.035616017 GHz 
+sigma = 1 :   2922.040216248 GHz 
  V2n_1      -0.263278 kj +/- 0.001189 kj        -0.062881 kcal +/- 0.000284 kcal
           -22.008339 cm +/-   0.0994 cm 
  V2n_2      -0.263278 kj +/- 0.001189 kj        -0.062881 kcal +/- 0.000284 kcal
