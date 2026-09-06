@@ -14,7 +14,7 @@ https://github.com/SvenHerbers/XIAM-2NQ/
 | Name | Data Reference | ntop | NQC1 | NQC2 | Cor. | Ex. | nfold |
 |------|------|------|------|------|------|------|------|
 |Benzanilide|[10.1016/j.jms.2018.07.003](https://doi.org/10.1016/j.jms.2018.07.003)|    0    |   d   |      |   x   |  |  |
-|Dichloromethane-Ne|[10.1021/acs.jpca.5b09090]([https://doi.org/10.1016/j.jms.2018.07.003](https://doi.org/10.1021/acs.jpca.5b09090))|    0    |   x   |   x   |   x   |  |  |
+|Dichloromethane-Ne|[10.1021/acs.jpca.5b09090](https://doi.org/10.1021/acs.jpca.5b09090)|    0    |   x   |   x   |   x   |  |  |
 |Methylformate | [10.1016/j.jms.2009.01.016](https://doi.org/10.1016/j.jms.2009.01.016) |  1  |      |      |      |      |      |  |  | 
 |Vinylsulfurpentafluoride| [10.1063/1.5050021](https://doi.org/10.1063/1.5050021)|  1  |      |      |      |  | x | 
 |2Iodotoluene|[10.1039/D0CP01145B](https://doi.org/10.1039/D0CP01145B)     |  1 | x    |    |      |  |  |
